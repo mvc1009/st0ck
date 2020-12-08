@@ -239,8 +239,7 @@ def start():
 	print("[+] Setting up the Database")
 
 	# Connecting to furgoDB
-	#connection = sqlite3.connect("/Users/oscar/Desktop/MI PC/MATACHANA/ DOTACIÓN FURGO/furgo.db")
-	connection = sqlite3.connect("furgo.db")
+	connection = sqlite3.connect("/Users/oscar/Desktop/MI PC/MATACHANA/ DOTACIÓN FURGO/furgo.db")
 	return connection
 
 def close(connection):
