@@ -5,7 +5,7 @@ import sqlite3
 
 print("[+] Hello Cara carbasso")
 print("[+] Install1ng V1rUs3s to 0sk1Th3Sh1t")
-os.system("touch furgo.db")
+os.system("touch /Users/oscar/Desktop/MI PC/MATACHANA/ DOTACIÓN FURGO/furgo.db")
 connection = sqlite3.connect("/Users/oscar/Desktop/MI PC/MATACHANA/ DOTACIÓN FURGO/furgo.db")
 cursor = connection.cursor()
 
